@@ -173,46 +173,22 @@ flutter run -d chrome
 flutter run -d windows
 ```
 
-## 8) Anh chup man hinh ket qua ung dung
+## 8) Minh chung ket qua (khong can push hinh)
 
-Luu y: thay cac anh mau ben duoi bang anh chup that te cua ban truoc khi nop.
+Repository nay khong yeu cau kem anh chup man hinh de chay duoc du an.
+Neu can nop bao cao co hinh, co the chup va luu anh o may ca nhan hoac dinh kem rieng.
 
-### 8.1 Home
+### 8.1 Danh sach man/chuc nang da kiem thu
 
-![Home](docs/screenshots/home.png)
-
-### 8.2 My Profile
-
-![Profile](docs/screenshots/profile.png)
-
-### 8.3 GetX Counter
-
-![GetX Counter](docs/screenshots/getx_counter.png)
-
-### 8.4 My Canon (Grid + Carousel)
-
-![My Canon Grid](docs/screenshots/canon_grid.png)
-![My Canon Detail](docs/screenshots/canon_detail.png)
-
-### 8.5 Fruit Store
-
-![Fruit Store](docs/screenshots/fruit_store.png)
-![Fruit Detail](docs/screenshots/fruit_detail.png)
-
-### 8.6 Login + OTP
-
-![Login](docs/screenshots/login.png)
-![Verify OTP](docs/screenshots/verify_otp.png)
-
-### 8.7 Gio hang
-
-![Cart](docs/screenshots/cart.png)
-
-### 8.8 Fruit Admin
-
-![Admin List](docs/screenshots/admin_list.png)
-![Admin Add](docs/screenshots/admin_add.png)
-![Admin Update](docs/screenshots/admin_update.png)
+- Home (menu tong hop)
+- My Profile (thong tin ca nhan)
+- About
+- My Canon (GridView + Carousel)
+- GetX Counter
+- Fruit Store (danh sach + chi tiet)
+- Gio hang (them/xoa/cap nhat so luong)
+- Login/Sign up + Verify OTP
+- Fruit Admin (them/sua san pham, upload anh len Supabase Storage)
 
 ## 9) Danh gia ket qua
 
