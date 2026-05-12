@@ -173,10 +173,7 @@ flutter run -d chrome
 flutter run -d windows
 ```
 
-## 8) Minh chung ket qua (khong can push hinh)
-
-Repository nay khong yeu cau kem anh chup man hinh de chay duoc du an.
-Neu can nop bao cao co hinh, co the chup va luu anh o may ca nhan hoac dinh kem rieng.
+## 8) Chung minh ket qua
 
 ### 8.1 Danh sach man/chuc nang da kiem thu
 
@@ -189,6 +186,65 @@ Neu can nop bao cao co hinh, co the chup va luu anh o may ca nhan hoac dinh kem 
 - Gio hang (them/xoa/cap nhat so luong)
 - Login/Sign up + Verify OTP
 - Fruit Admin (them/sua san pham, upload anh len Supabase Storage)
+
+### 8.2 Hinh anh minh chung
+
+#### Home va giao dien co ban
+
+<p align="center">
+	<img src="pictures/home_1.png" alt="Home" width="240" />
+	<img src="pictures/profile1.png" alt="My Profile" width="240" />
+	<img src="pictures/canon_grid1.png" alt="My Canon Grid" width="240" />
+</p>
+
+<p align="center">
+	<img src="pictures/canon_list1.png" alt="My Canon Carousel" width="240" />
+</p>
+
+- Home: man hinh menu tong hop cac bai tap.
+- My Profile: man hinh thong tin ca nhan, ngay sinh, gioi tinh va ngon ngu yeu thich.
+- My Canon: hien thi GridView hinh anh va xem anh chi tiet theo dang slider.
+
+#### State management voi GetX
+
+<p align="center">
+	<img src="pictures/getx_counter1.png" alt="GetX Counter" width="240" />
+</p>
+
+- GetX Counter: minh hoa Controller, GetBuilder va cap nhat giao dien theo trang thai.
+
+#### Supabase va Fruit Store
+
+<p align="center">
+	<img src="pictures/fruit_store.png" alt="Fruit Store" width="240" />
+	<img src="pictures/cart1.png" alt="Cart" width="240" />
+	<img src="pictures/login.png" alt="Login" width="240" />
+</p>
+
+<p align="center">
+	<img src="pictures/dangky.png" alt="Dang ky" width="240" />
+	<img src="pictures/supabase.png" alt="Supabase OTP" width="240" />
+</p>
+
+- Fruit Store: tai danh sach trai cay tu Supabase va hien thi theo dang luoi.
+- Gio hang: them san pham, thay doi so luong va tinh tong tien.
+- Dang nhap/Dang ky: su dung Supabase Auth UI va xac thuc OTP qua email.
+
+#### Chuc nang quan tri va quy trinh dat hang
+
+<p align="center">
+	<img src="pictures/admin_add_fruit1.png" alt="Admin add fruit" width="240" />
+	<img src="pictures/admin_update_1.png" alt="Admin update fruit" width="240" />
+	<img src="pictures/xac_nhan_mua_hang.png" alt="Xac nhan mua hang" width="240" />
+</p>
+
+<p align="center">
+	<img src="pictures/xac_nhan_mua_hang2.png" alt="Xac nhan mua hang 2" width="240" />
+	<img src="pictures/don_hang_duoc_Xac_nhan.png" alt="Don hang duoc xac nhan" width="240" />
+</p>
+
+- Fruit Admin: them/sua san pham va cap nhat hinh anh len Supabase Storage.
+- Quy trinh dat hang: xac nhan mua hang va hien thi trang thai don hang sau khi hoan tat thao tac.
 
 ## 9) Danh gia ket qua
 
