@@ -126,7 +126,6 @@ Những nội dung mở rộng so với bài mẫu cơ bản:
 - Nền tảng đã test:
 	- Android Emulator (API 35)
 	- Windows
-	- Chrome
 
 ## 6) Cấu trúc thư mục chính
 
