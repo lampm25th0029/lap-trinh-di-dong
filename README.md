@@ -5,7 +5,7 @@
 
 - Môn học: Lập trình thiết bị di động
 - Đề tài: Xây dựng ứng dụng di động đa màn hình với Flutter
-- Sinh viên thực hiện: Phan Minh Lâm
+- Sinh viên thực hiện: Phan Minh Lãm
 - Mã số sinh viên: 25TH0029
 - Học kỳ: 2
 - Giảng viên hướng dẫn: Huỳnh Tuấn Anh
