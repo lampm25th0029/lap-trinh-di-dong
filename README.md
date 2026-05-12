@@ -1,111 +1,112 @@
-# Bao cao bai tap cuoi ky mon Lap trinh thiet bi di dong
 
-## 1) Thong tin chung
+# Báo cáo bài tập cuối kỳ môn Lập trình thiết bị di động
 
-- Mon hoc: Lap trinh thiet bi di dong
-- De tai: Xay dung ung dung di dong da man hinh voi Flutter
-- Sinh vien thuc hien: Phan Minh Lãm
-- Ma so sinh vien: 25TH0029
-- Hoc ky: (dien theo hoc ky thuc te)
-- Giang vien huong dan: Huynh Tuan Anh
+## 1) Thông tin chung
 
-## 2) Ly thuyet
+- Môn học: Lập trình thiết bị di động
+- Đề tài: Xây dựng ứng dụng di động đa màn hình với Flutter
+- Sinh viên thực hiện: Phan Minh Lâm
+- Mã số sinh viên: 25TH0029
+- Học kỳ: 2
+- Giảng viên hướng dẫn: Huỳnh Tuấn Anh
 
-### 2.1 Cac nen tang lap trinh di dong
+## 2) Lý thuyết
 
-Trong mon hoc, cac nen tang va huong tiep can duoc tim hieu gom:
+### 2.1 Các nền tảng lập trình di động
 
-- Native Android (Java/Kotlin): hieu nang cao, truy cap API he thong day du, nhung phat trien rieng tung nen tang.
-- Native iOS (Swift/Objective-C): toi uu cho he sinh thai Apple, nhung can code rieng so voi Android.
+Trong môn học, các nền tảng và hướng tiếp cận được tìm hiểu gồm:
+
+- Native Android (Java/Kotlin): hiệu năng cao, truy cập API hệ thống đầy đủ, nhưng phát triển riêng từng nền tảng.
+- Native iOS (Swift/Objective-C): tối ưu cho hệ sinh thái Apple, nhưng cần code riêng so với Android.
 - Cross-platform:
-	- Flutter: mot codebase cho Android/iOS/Web/Desktop, UI theo kieu declarative, hot reload nhanh.
-	- React Native: su dung JavaScript/TypeScript, cau truc component, co kha nang mo rong thong qua native module.
+	- Flutter: một codebase cho Android/iOS/Web/Desktop, UI theo kiểu declarative, hot reload nhanh.
+	- React Native: sử dụng JavaScript/TypeScript, cấu trúc component, có khả năng mở rộng thông qua native module.
 
-So sanh tong quan:
+So sánh tổng quan:
 
-- Native phu hop bai toan can toi uu sau vao tung he dieu hanh.
-- Flutter phu hop bai toan lam ung dung da nen tang nhanh, giao dien dong bo, de mo rong.
+- Native phù hợp bài toán cần tối ưu sâu vào từng hệ điều hành.
+- Flutter phù hợp bài toán làm ứng dụng đa nền tảng nhanh, giao diện đồng bộ, dễ mở rộng.
 
-### 2.2 Lap trinh di dong voi Flutter
+### 2.2 Lập trình di động với Flutter
 
-Nhung noi dung cot loi da hoc va ap dung vao bai:
+Những nội dung cốt lõi đã học và áp dụng vào bài:
 
-- Cau truc ung dung Flutter:
-	- Ham main, runApp.
-	- StatelessWidget va StatefulWidget.
-- Xay dung giao dien:
-	- Widget co ban: Text, Image, Icon, Button, TextField.
+- Cấu trúc ứng dụng Flutter:
+	- Hàm main, runApp.
+	- StatelessWidget và StatefulWidget.
+- Xây dựng giao diện:
+	- Widget cơ bản: Text, Image, Icon, Button, TextField.
 	- Layout: Row, Column, Expanded, SizedBox, GridView, ListView.
-- Dieu huong:
+- Điều hướng:
 	- Navigator, MaterialPageRoute.
-- Quan ly trang thai:
+- Quản lý trạng thái:
 	- SetState.
 	- GetX (GetBuilder, Controller).
-- Bat dong bo:
-	- async/await, FutureBuilder, xu ly du lieu tu backend.
-- Du lieu va backend:
+- Bất đồng bộ:
+	- async/await, FutureBuilder, xử lý dữ liệu từ backend.
+- Dữ liệu và backend:
 	- Supabase Authentication.
-	- CRUD voi bang du lieu Fruit.
-	- Upload/Update hinh anh len Supabase Storage.
+	- CRUD với bảng dữ liệu Fruit.
+	- Upload/Update hình ảnh lên Supabase Storage.
 
-## 3) Ung dung da cai dat
+## 3) Ứng dụng đã cài đặt
 
-### 3.1 Tong quan ung dung
+### 3.1 Tổng quan ứng dụng
 
-Ung dung la bo suu tap cac bai tap thuc hanh theo tung chuong trong mon hoc, gom:
+Ứng dụng là bộ sưu tập các bài tập thực hành theo từng chương trong môn học, gồm:
 
-- Trang chu menu tong hop cac bai.
-- Nhom bai giao dien co ban.
-- Nhom bai state management (GetX).
-- Nhom bai backend (Supabase) theo mo hinh cua cua hang trai cay.
+- Trang chủ menu tổng hợp các bài.
+- Nhóm bài giao diện cơ bản.
+- Nhóm bài state management (GetX).
+- Nhóm bài backend (Supabase) theo mô hình của cửa hàng trái cây.
 
-### 3.2 Danh sach bai tap/chuc nang da hoan thanh
+### 3.2 Danh sách bài tập/chức năng đã hoàn thành
 
-#### A. Nhom giao dien va dieu huong
+#### A. Nhóm giao diện và điều hướng
 
 - My Profile
-	- Hien thi thong tin ca nhan.
-	- Chon ngay sinh.
-	- Chon gioi tinh.
-	- Chon ngon ngu lap trinh yeu thich.
+	- Hiển thị thông tin cá nhân.
+	- Chọn ngày sinh.
+	- Chọn giới tính.
+	- Chọn ngôn ngữ lập trình yêu thích.
 - About
-	- Man hinh thong tin.
+	- Màn hình thông tin.
 - My Canon
-	- GridView hinh anh.
-	- Xem anh lon bang CarouselSlider.
+	- GridView hình ảnh.
+	- Xem ảnh lớn bằng CarouselSlider.
 
-#### B. Nhom state management
+#### B. Nhóm state management
 
 - GetX Counter
-	- Controller GetX voi increment/decrement.
-	- Cap nhat UI theo ID GetBuilder.
+	- Controller GetX với increment/decrement.
+	- Cập nhật UI theo ID GetBuilder.
 
-#### C. Nhom data/backend (Supabase)
+#### C. Nhóm data/backend (Supabase)
 
-- Fruit Store (xem san pham)
-	- Tai danh sach trai cay tu Supabase.
-	- Hien thi theo dang luoi.
-- Fruit Store (mo rong)
-	- Trang chi tiet san pham.
-	- Gio hang: them, tang/giam so luong, xoa, tinh tong tien.
+- Fruit Store (xem sản phẩm)
+	- Tải danh sách trái cây từ Supabase.
+	- Hiển thị theo dạng lưới.
+- Fruit Store (mở rộng)
+	- Trang chi tiết sản phẩm.
+	- Giỏ hàng: thêm, tăng/giảm số lượng, xóa, tính tổng tiền.
 - Login + Verify OTP
-	- Dang nhap/dang ky email voi Supabase Auth UI.
-	- Xac thuc OTP email.
+	- Đăng nhập/đăng ký email với Supabase Auth UI.
+	- Xác thực OTP email.
 - Fruit Store Admin
-	- Them san pham.
-	- Sua san pham.
-	- Upload/cap nhat anh san pham tren Supabase Storage.
+	- Thêm sản phẩm.
+	- Sửa sản phẩm.
+	- Upload/cập nhật ảnh sản phẩm trên Supabase Storage.
 
-## 4) Ung dung mo rong de dat diem toi da
+## 4) Ứng dụng mở rộng để đạt điểm tối đa
 
-Nhung noi dung mo rong so voi bai mau co ban:
+Những nội dung mở rộng so với bài mẫu cơ bản:
 
-- Tich hop backend cloud thuc te (Supabase) thay vi du lieu tinh.
-- Co luong Authentication + OTP cho nguoi dung.
-- Tach nho domain Fruit thanh model, controller, page.
-- Co module quan tri (Admin) de thao tac du lieu.
-- Gio hang co xu ly nghiep vu co ban (chon san pham, cap nhat so luong, tinh tong).
-- Co su dung package thu ba trong he sinh thai Flutter:
+- Tích hợp backend cloud thực tế (Supabase) thay vì dữ liệu tĩnh.
+- Có luồng Authentication + OTP cho người dùng.
+- Tách nhỏ domain Fruit thành model, controller, page.
+- Có module quản trị (Admin) để thao tác dữ liệu.
+- Giỏ hàng có xử lý nghiệp vụ cơ bản (chọn sản phẩm, cập nhật số lượng, tính tổng).
+- Có sử dụng package thứ ba trong hệ sinh thái Flutter:
 	- get
 	- supabase_flutter
 	- supabase_auth_ui
@@ -115,81 +116,81 @@ Nhung noi dung mo rong so voi bai mau co ban:
 	- carousel_slider
 	- badges
 
-## 5) Cong nghe su dung
+## 5) Công nghệ sử dụng
 
-- Ngon ngu: Dart
+- Ngôn ngữ: Dart
 - Framework: Flutter
 - State management: GetX
 - Backend as a Service: Supabase
 - IDE: VS Code
-- Nen tang da test:
+- Nền tảng đã test:
 	- Android Emulator (API 35)
 	- Windows
 	- Chrome
 
-## 6) Cau truc thu muc chinh
+## 6) Cấu trúc thư mục chính
 
-- lib/main.dart: diem vao ung dung, khoi tao Supabase
-- lib/page_home.dart: menu tong hop bai tap
-- lib/page_proflie.dart: bai tap profile
-- lib/page_image_gridview.dart: bai tap GridView + Carousel
-- lib/getx: bai tap GetX
-- lib/supabase_app: bai tap backend (Fruit Store, Login, Admin)
+- lib/main.dart: điểm vào ứng dụng, khởi tạo Supabase
+- lib/page_home.dart: menu tổng hợp bài tập
+- lib/page_proflie.dart: bài tập profile
+- lib/page_image_gridview.dart: bài tập GridView + Carousel
+- lib/getx: bài tập GetX
+- lib/supabase_app: bài tập backend (Fruit Store, Login, Admin)
 
-## 7) Huong dan chay du an
+## 7) Hướng dẫn chạy dự án
 
-### 7.1 Yeu cau moi truong
+### 7.1 Yêu cầu môi trường
 
-- Flutter SDK 3.41.x tro len
+- Flutter SDK 3.41.x trở lên
 - Android SDK + Android Emulator
-- JDK tu Android Studio (jbr)
+- JDK từ Android Studio (jbr)
 
-### 7.2 Cac buoc chay
+### 7.2 Các bước chạy
 
-1. Cai package:
+1. Cài package:
 
 ```bash
 flutter pub get
 ```
 
-2. Kiem tra moi truong:
+2. Kiểm tra môi trường:
 
 ```bash
 flutter doctor -v
 ```
 
-3. Khoi dong emulator Android.
+3. Khởi động emulator Android.
 
-4. Chay ung dung:
+4. Chạy ứng dụng:
 
 ```bash
 flutter run -d emulator-5554
 ```
 
-Hoac chay nhanh tren web/desktop:
+Hoặc chạy nhanh trên web/desktop:
 
 ```bash
 flutter run -d chrome
 flutter run -d windows
 ```
 
-## 8) Chung minh ket qua
+## 8) Chứng minh kết quả
 
-### 8.1 Danh sach man/chuc nang da kiem thu
+### 8.1 Danh sách màn/chức năng đã kiểm thử
 
-- Home (menu tong hop)
-- My Profile (thong tin ca nhan)
+- Home (menu tổng hợp)
+- My Profile (thông tin cá nhân)
 - About
 - My Canon (GridView + Carousel)
 - GetX Counter
-- Fruit Store (danh sach + chi tiet)
-- Gio hang (them/xoa/cap nhat so luong)
+- Fruit Store (danh sách + chi tiết)
+- Giỏ hàng (thêm/xóa/cập nhật số lượng)
 - Login/Sign up + Verify OTP
-- Fruit Admin (them/sua san pham, upload anh len Supabase Storage)
+- Fruit Admin (thêm/sửa sản phẩm, upload ảnh lên Supabase Storage)
 
-### 8.2 Hinh anh minh chung
+### 8.2 Hình ảnh minh chứng
 
-#### Home va giao dien co ban
+#### Home và giao diện cơ bản
 
 <p align="center">
 	<img src="pictures/home_1.png" alt="Home" width="240" />
@@ -201,19 +202,19 @@ flutter run -d windows
 	<img src="pictures/canon_list1.png" alt="My Canon Carousel" width="240" />
 </p>
 
-- Home: man hinh menu tong hop cac bai tap.
-- My Profile: man hinh thong tin ca nhan, ngay sinh, gioi tinh va ngon ngu yeu thich.
-- My Canon: hien thi GridView hinh anh va xem anh chi tiet theo dang slider.
+- Home: màn hình menu tổng hợp các bài tập.
+- My Profile: màn hình thông tin cá nhân, ngày sinh, giới tính và ngôn ngữ yêu thích.
+- My Canon: hiển thị GridView hình ảnh và xem ảnh chi tiết theo dạng slider.
 
-#### State management voi GetX
+#### State management với GetX
 
 <p align="center">
 	<img src="pictures/getx_counter1.png" alt="GetX Counter" width="240" />
 </p>
 
-- GetX Counter: minh hoa Controller, GetBuilder va cap nhat giao dien theo trang thai.
+- GetX Counter: minh họa Controller, GetBuilder và cập nhật giao diện theo trạng thái.
 
-#### Supabase va Fruit Store
+#### Supabase và Fruit Store
 
 <p align="center">
 	<img src="pictures/fruit_store.png" alt="Fruit Store" width="240" />
@@ -222,51 +223,51 @@ flutter run -d windows
 </p>
 
 <p align="center">
-	<img src="pictures/dangky.png" alt="Dang ky" width="240" />
+	<img src="pictures/dangky.png" alt="Đăng ký" width="240" />
 	<img src="pictures/supabase.png" alt="Supabase OTP" width="240" />
 </p>
 
-- Fruit Store: tai danh sach trai cay tu Supabase va hien thi theo dang luoi.
-- Gio hang: them san pham, thay doi so luong va tinh tong tien.
-- Dang nhap/Dang ky: su dung Supabase Auth UI va xac thuc OTP qua email.
+- Fruit Store: tải danh sách trái cây từ Supabase và hiển thị theo dạng lưới.
+- Giỏ hàng: thêm sản phẩm, thay đổi số lượng và tính tổng tiền.
+- Đăng nhập/Đăng ký: sử dụng Supabase Auth UI và xác thực OTP qua email.
 
-#### Chuc nang quan tri va quy trinh dat hang
+#### Chức năng quản trị và quy trình đặt hàng
 
 <p align="center">
 	<img src="pictures/admin_add_fruit1.png" alt="Admin add fruit" width="240" />
 	<img src="pictures/admin_update_1.png" alt="Admin update fruit" width="240" />
-	<img src="pictures/xac_nhan_mua_hang.png" alt="Xac nhan mua hang" width="240" />
+	<img src="pictures/xac_nhan_mua_hang.png" alt="Xác nhận mua hàng" width="240" />
 </p>
 
 <p align="center">
-	<img src="pictures/xac_nhan_mua_hang2.png" alt="Xac nhan mua hang 2" width="240" />
-	<img src="pictures/don_hang_duoc_Xac_nhan.png" alt="Don hang duoc xac nhan" width="240" />
+	<img src="pictures/xac_nhan_mua_hang2.png" alt="Xác nhận mua hàng 2" width="240" />
+	<img src="pictures/don_hang_duoc_Xac_nhan.png" alt="Đơn hàng được xác nhận" width="240" />
 </p>
 
-- Fruit Admin: them/sua san pham va cap nhat hinh anh len Supabase Storage.
-- Quy trinh dat hang: xac nhan mua hang va hien thi trang thai don hang sau khi hoan tat thao tac.
+- Fruit Admin: thêm/sửa sản phẩm và cập nhật hình ảnh lên Supabase Storage.
+- Quy trình đặt hàng: xác nhận mua hàng và hiển thị trạng thái đơn hàng sau khi hoàn tất thao tác.
 
-## 9) Danh gia ket qua
+## 9) Đánh giá kết quả
 
-- Da ap dung du cac noi dung trong mon:
-	- UI co ban
-	- Dieu huong
+- Đã áp dụng đủ các nội dung trong môn:
+	- UI cơ bản
+	- Điều hướng
 	- State management (GetX)
-	- Bat dong bo
+	- Bất đồng bộ
 	- Data/backend cloud
-- Du an da duoc kiem tra analyzer:
+- Dự án đã được kiểm tra analyzer:
 	- flutter analyze -> No issues found
 
-## 10) Huong phat trien tiep theo
+## 10) Hướng phát triển tiếp theo
 
-- Hoan thien giao dien theo chuan responsive va design system.
-- Bo sung validate form day du khi them/sua san pham.
-- Them phan quyen user/admin ro rang hon.
-- Viet test cho mot so luong logic quan trong (controller, service).
+- Hoàn thiện giao diện theo chuẩn responsive và design system.
+- Bổ sung validate form đầy đủ khi thêm/sửa sản phẩm.
+- Thêm phân quyền user/admin rõ ràng hơn.
+- Viết test cho một số luồng logic quan trọng (controller, service).
 
-## 11) Tai lieu tham khao
+## 11) Tài liệu tham khảo
 
-- Tai lieu bai giang trong thu muc Bai_Giang:
+- Tài liệu bài giảng trong thư mục Bai_Giang:
 	- Introduction.pdf
 	- Dart.pdf
 	- Dart_Async.pdf
